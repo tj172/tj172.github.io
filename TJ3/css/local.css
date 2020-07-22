@@ -1,0 +1,156 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    min-width: 1190px;
+    /*background: #ECECEC;*/
+}
+header{
+	width: 100%;
+	height: 80px;
+	background: red;
+}
+a{
+	text-decoration: none;
+    outline: 0;
+}
+.t_s1 {
+    padding-top: 60px;
+    height: 540px;
+    background: url(../img/localprivatehead.png) center top;
+    background-size: 100% 100%;
+    position: relative;
+}
+.t_s1 h2 {
+    font-size: 68px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.t_s1 .t_s1_font {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 56px;
+    font-weight: lighter;
+    line-height: 40px;
+}
+.t_s1 .t_div {
+    height: 280px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -490px;
+    text-align: center;
+}
+.t_div {
+    width: 980px;
+    margin-top: 335px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reg-btn {
+    display: inline-block;
+    width: 240px;
+    margin-top: 60px;
+    border-radius: 3px;
+    background: #357ae8;
+    opacity:0.9;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+    height: 60px;
+    box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.1);
+}
+.reg-btn:hover{
+	opacity:1;
+}
+}
+.t_s1 .t_div {
+    height: 580px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -490px;
+    text-align: center;
+}
+.t_s2 {
+    height: 626px;
+    position: relative;
+    /*padding-top: 140px;*/
+   margin-top: -160px;
+    box-sizing: border-box;
+    background: #fff;
+}
+.t_s2 .word h3 {
+    padding-bottom: 30px;
+}
+.word h3 {
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+.word p {
+    line-height: 34px;
+    font-size: 18px;
+}
+.t_s5 h3, .word h3 {
+    font-size: 30px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.t_s2 .word {
+    text-align: left;
+    padding-top: 150px;
+    width: 400px;
+    float: left;
+}
+.t_s3 {
+    margin-top: -320px;
+}
+.t_s3,.t_s4 {
+    background: #fff;
+    height: 548px;
+    box-sizing: border-box;
+}
+.t_s3 .word {
+    text-align: left;
+    padding-top: 30px;
+    width: 400px;
+    float: left;
+}
+.fl {
+    float: left;
+}
+.t_s4{
+	margin-top: -320px;
+}
+.t_s4 .word {
+    text-align: left;
+    padding-top: 130px;
+    width: 390px;
+    float: left;
+}
+.t_s5{
+	margin-top: -320px;
+	background: white;
+}
+.t_s5 h3{
+    padding-top: 70px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.t_s5 .reg-btn{
+	margin-bottom: 90px;
+}
