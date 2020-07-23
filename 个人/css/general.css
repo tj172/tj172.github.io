@@ -16,7 +16,7 @@ a {
 a:hover {
 	font-weight: bold;
 }
-#header, #general, #objective, #skillareas, #history, #awards, #lastModified {
+#header, #general,#skillareas, #history{
 	width: 720px;
 	margin: 0 auto;
 	text-align: left;
@@ -57,7 +57,7 @@ h1, h2 {
 #general .row #realnameValue, #general .row #titleValue, #general .row #birthdayValue, #general .row #phoneValue, #general .row #mobileValue, #general .row #emailValue, #general .row #homepageValue, #general .row #imValue {
 	color: #fff;
 }
-#objective h2, #skillareas h2, #history h2, #awards h2 {
+#skillareas h2, #history h2{
 	position: relative;
 	top: 20px;
 	left: 20px;
