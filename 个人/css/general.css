@@ -1,0 +1,134 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 20px 0;
+	background: #222;
+	text-align: center;
+	color: #ccc;
+}
+a {
+	color: #fff;
+	font-size: 1.2em;
+	font-style: italic;
+}
+a:hover {
+	font-weight: bold;
+}
+#header, #general, #objective, #skillareas, #history, #awards, #lastModified {
+	width: 720px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 12px;
+	border: 1px solid #000;
+}
+h1, h2 {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	margin: 0;
+}
+#header {
+	background: url(../img/header.gif);
+	height: 200px;
+}
+#header h1#title {
+	position: relative;
+	top: 5px;
+	left: 50px;
+	color: #fff;
+	font-size: 18px;
+}
+
+#general {
+	background: #152628;
+}
+#general .row {
+	margin: 5px 20px;
+}
+#general .row #realname, #general .row #titlename, #general .row #birthday, #general .row #phone, #general .row #mobile, #general .row #email, #general .row #homepage, #general .row #im {
+	float: left;
+	width: 140px;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+}
+#general .row #realnameValue, #general .row #titleValue, #general .row #birthdayValue, #general .row #phoneValue, #general .row #mobileValue, #general .row #emailValue, #general .row #homepageValue, #general .row #imValue {
+	color: #fff;
+}
+#objective h2, #skillareas h2, #history h2, #awards h2 {
+	position: relative;
+	top: 20px;
+	left: 20px;
+	font-size: 18px;
+}
+#objective p {
+	position: relative;
+	top: 10px;
+	left: 20px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+#skillareas {
+	background: #152628;
+}
+#skillareas ol {
+	margin: 30px;
+	padding: 0;
+	list-style-type: upper-roman;
+}
+#skillareas ol li.skill {
+	margin: 10px 20px;
+	font-size: 13px;
+	margin: 0 40px;
+	padding: 0;
+}
+#skillareas ol li.skill h3 {
+	color: #fff;
+	font-size: 13px;
+	margin: 10px 0;
+}
+#skillareas ol li.skill ul.skillset {
+	margin: 0;
+	padding: 0;
+	list-style-type: lower-alpha;
+}
+#skillareas ol li.skill ul.skillset li {
+	margin: 5px 40px;
+	padding: 0;
+	color: #fff;
+}
+#history ol {
+	margin: 30px;
+	padding: 0;
+	list-style-type: upper-roman;
+}
+#history ol li.job {
+	margin: 10px 20px;
+	font-size: 13px;
+	margin: 0 40px;
+	padding: 0;
+}
+#history ol li.job h3 {
+	color: #fff;
+	font-size: 13px;
+	margin: 10px 0;
+}
+#history ol li.job div.year {
+	float: left;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	width: 140px;
+}
+#history ol li.job div.employer {
+	float: left;
+	color: #fff;
+}
+#history ol li.job p.description {
+	clear: both;
+	color: #fff;
+	margin: 5px 140px;
+}
